@@ -53,5 +53,7 @@ class Member
         }
         return false;
     }
+
+    
 }
 ?>

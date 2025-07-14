@@ -379,7 +379,7 @@ $library->returnItem($book3, $member3);
                             <td><?php echo $member->getMemberId(); ?></td>
                             <td><?php echo $member->getName(); ?></td>
                             <td><?php echo $member->getEmail(); ?></td>
-                            <td><?php echo count($member->getBorrowedBooks()); ?></td>
+                            <td><?php echo count($member->getBorrowedItems()); ?></td>
                             <td class="actions">
                                 <button class="btn btn-primary">View</button>
                                 <button class="btn btn-danger">Remove</button>
