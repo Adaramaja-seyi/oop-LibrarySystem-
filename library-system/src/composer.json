@@ -1,0 +1,9 @@
+{
+  "name": "yourname/library-system",
+  "autoload": {
+    "psr-4": {
+      "LibrarySystem\\": "src/"
+    }
+  },
+  "require": {}
+}
